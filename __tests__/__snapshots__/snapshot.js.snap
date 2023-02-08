@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h1>
+      This is 
+      <span
+        id="counter"
+      >
+        0
+      </span>
+    </h1>
+    <button
+      id="buttonAdd"
+    >
+      Add
+    </button>
+  </div>
+</div>
+`;
