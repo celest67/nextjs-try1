@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+      import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
@@ -11,11 +11,15 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to
+          {' '}
+          <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+          Get started by editing
+          {' '}
+          <code>pages/index.js</code>
         </p>
 
         <div className={styles.grid}>
@@ -55,12 +59,14 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by
+          {' '}
           <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
         </a>
       </footer>
 
-      <style jsx>{`
+      <style jsx>
+        {`
         main {
           padding: 5rem 0;
           flex: 1;
@@ -95,9 +101,12 @@ export default function Home() {
           font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
             DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
         }
-      `}</style>
+      `}
 
-      <style jsx global>{`
+      </style>
+
+      <style jsx global>
+        {`
         html,
         body {
           padding: 0;
@@ -109,7 +118,9 @@ export default function Home() {
         * {
           box-sizing: border-box;
         }
-      `}</style>
+      `}
+
+      </style>
     </div>
-  )
+  );
 }
